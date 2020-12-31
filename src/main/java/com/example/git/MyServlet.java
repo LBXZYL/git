@@ -1,5 +1,7 @@
 package com.example.git;
 
 public class MyServlet {
-    int i;
+    public static void main(String[] args) {
+        System.out.println(args);
+    }
 }
